@@ -34,26 +34,23 @@ namespace Buhlmann
 		 */
 
         string fileContents = @"
-			SAMPLE DIVE TO 90 METERS OF SEAWATER GUAGE (MSWG) FOR 20 MINUTES
-			4
-			.13,.50,.37
-			.36,.00,.64
-			.50,.00,.50
-			.80,.00,.20
+			SAMPLE DIVE TO 60 METERS OF SEAWATER GUAGE (MSWG) FOR 25 MINUTES
+			3
+			0.18,0.45,0.37
+			0.50,0.0,0.50
+			1.0,0.0,0.0
 			1.0
 			1
-			0,90,23,1
+			0,60,20,1
 			2
-			90,20,1
-			99
-			90
-			1,-10,3,0.75,0.30
-			33
+			60,25,1
+            99
+			60
+            1,-10,3,0.80,0.35
+			24
 			2,-10,3
-			21
-			3,-10,3
 			9
-			4,-10,3
+			3,-10,3
 			0";
 
         string[] tokens;
