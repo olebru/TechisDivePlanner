@@ -10,6 +10,10 @@ namespace TechisDivePlanner
     {
         static void Main(string[] args)
         {
+            var b = new Buhlmann.TranslatedDecoCalc();
+            b.Run();
+            Console.ReadLine();
+
         }
     }
 }
